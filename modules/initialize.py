@@ -68,9 +68,9 @@ def initialize():
     codeformer_model.setup_model(cmd_opts.codeformer_models_path)
     startup_timer.record("setup codeformer")
 
-    from modules import gfpgan_model
-    gfpgan_model.setup_model(cmd_opts.gfpgan_models_path)
-    startup_timer.record("setup gfpgan")
+    # from modules import gfpgan_model
+    # gfpgan_model.setup_model(cmd_opts.gfpgan_models_path)
+    # startup_timer.record("setup gfpgan")
 
     initialize_rest(reload_script_modules=False)
 

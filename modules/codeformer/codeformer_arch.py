@@ -7,7 +7,7 @@ import torch.nn.functional as F
 from typing import Optional
 
 from modules.codeformer.vqgan_arch import VQAutoEncoder, ResBlock
-from basicsr.utils.registry import ARCH_REGISTRY
+#from basicsr.utils.registry import ARCH_REGISTRY
 
 def calc_mean_std(feat, eps=1e-5):
     """Calculate mean and std for adaptive_instance_normalization.

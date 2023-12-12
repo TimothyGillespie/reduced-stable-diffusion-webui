@@ -1,7 +1,7 @@
 import os
 
-import facexlib
-import gfpgan
+# import facexlib
+# import gfpgan
 
 import modules.face_restoration
 from modules import paths, shared, devices, modelloader, errors

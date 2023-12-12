@@ -28,7 +28,7 @@ def setup_model(dirname):
     try:
         from torchvision.transforms.functional import normalize
         from modules.codeformer.codeformer_arch import CodeFormer
-        from basicsr.utils import img2tensor, tensor2img
+#        from basicsr.utils import img2tensor, tensor2img
         from facelib.utils.face_restoration_helper import FaceRestoreHelper
         from facelib.detection.retinaface import retinaface
 

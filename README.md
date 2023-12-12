@@ -1,4 +1,9 @@
-# Stable Diffusion web UI
+# Reduced Stable Diffusion web UI
+
+A reduced version of the stable diffusion web ui project: https://github.com/AUTOMATIC1111./stable-diffusion-webui
+
+Removed components I didn't use for smaller sizes.
+
 A browser interface based on Gradio library for Stable Diffusion.
 
 ![](screenshot.png)

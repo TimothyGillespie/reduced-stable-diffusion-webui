@@ -2,12 +2,12 @@ GitPython
 Pillow
 accelerate
 
-basicsr
+# basicsr
 blendmodes
 clean-fid
 einops
 fastapi>=0.90.1
-gfpgan
+# gfpgan
 gradio==3.41.2
 inflection
 jsonmerge
@@ -20,7 +20,7 @@ open-clip-torch
 piexif
 psutil
 pytorch_lightning
-realesrgan
+# realesrgan
 requests
 resize-right
 
