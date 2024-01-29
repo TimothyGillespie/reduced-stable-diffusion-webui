@@ -2,7 +2,7 @@ GitPython
 Pillow
 accelerate
 
-# basicsr
+basicsr
 blendmodes
 clean-fid
 einops
